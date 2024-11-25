@@ -17,12 +17,19 @@ Easy-to-use menu for navigating through the program.
 
 ## Code Structure
 ### Global Variables:
-data: A pandas DataFrame to store entries with the following columns:
+#### data:
+A pandas DataFrame to store entries with the following columns:
+
 Type: Specifies whether the entry is "Income" or "Expense".
+
 Amount: The monetary value of the entry.
+
 Description: A brief note about the entry.
 ### Functions:
 add_entry(entry_type, amount, description): Adds an entry (income or expense) to the DataFrame.
+
 show_summary(): Displays the total income, total expenses, and balance.
+
 show_entries(): Displays all entries in a tabular format.
+
 main_menu(): Provides an interactive menu for the user to navigate the program.
